@@ -1,5 +1,12 @@
 {
   firstname: "Guillermo",
-  lastname: "Acosta,
-  email: "guillac124@gmail.com"
+  lastname: "Acosta",
+  email: "guillac124@gmail.com",
+  hobbies: ["soccer", "gym", "music"],
+  children: null,
+  cellphone: {
+    company: "Claro",
+    number: 3512697160
+  },
+  alive: true
 }
