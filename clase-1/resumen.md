@@ -1,7 +1,7 @@
-#GIT
+# GIT
 Es un controlador de versionamiento que tiene como proposito llevar un registro de cambios en los archivos de computadora para lograr coordinar el trabajo entre varios programadores.
 
-##Glosario de GIT
+## Glosario de GIT
 * GitHub
 Es el servicio mas popular para poder compartir y gestionar repositorios GIT. Desde su plataforma se pueden invitar colaboradores, visualizar cambios, editar archivos y acceder una gran variedad de acciones que estan disponible en la linea de comandos.
 
@@ -14,7 +14,7 @@ Al crear un repositorio por defecto se crea una rama que se denomina MASTER. un 
 * Remoto/repositorio remoto
 Un repositorio se puede crear desde un servicio como GitHub o localmente usando el comando **git init**. En el caso de que se cree, por ejemplo, desde GitHub a dicho repositorio se le asigna un nombre por defecto (ORIGIN) que es el alias de la URL donde se encuentra ese repositorio.
 
-##Acciones de GIT
+## Acciones de GIT
 1. clone. Cuando se crea un repositorio desde un lugar distinto de la computadora que uso para trabajar es necesario clonar el proyecto que se creo para tener una copia exacta en mi estacion de trabajo con los ultimos cambios del mismo. **git clone http://www.repositorio.com/direccion/del/repositorio**
 
 2. add. Ya sea que se edito un archivo produciendo un cambio o se agrego un nuevo archivo al repositorio, es necesario indicarle a GIT que queremos que tenga en cuenta a dicho archivo para registrarlo, para eso utilizamos la accion ADD del comando git. Este proceso pasa el archivo desde el estado "unstaged changes" a "staged changes". **git add nombre-del-archivo.js**
