@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.impar {
+  font-style: italic;
+  font-family: monospace;
+}
+
+.par {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.fondo-negro {
+  background-color: black;
+}
+
+.fondo-verde {
+  background-color: green;
+}
+
+.fuente-negra{
+  color: black;
+}
+
+.fuente-verde {
+  color: green;
+}
+
+.column-50 {
+  width: 50%;
+  float: left;
+}
+
+.clearer {
+  clear: both;
+}
+
+.elemento {
+  font-size: 14px;
+}
+
+#especial {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ETIQUETA <a> */
+/*estado por defecto*/
+a:link {}
+/*estado cuando paso el cursor por arriba*/
+a:hover {
+  text-decoration: none;
+}
+/*estado cuando hago click en el link*/
+a:active {
+  color: black;
+}
+/*estado cuando el link ya fue visitado*/
+a:visited {
+  background-color: green;
+}

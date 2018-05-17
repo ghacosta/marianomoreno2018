@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 3px solid red;
+}
+
+nav {
+  border: 3px solid #ADFF2F;
+}
+
+ul {
+  border: 3px solid blue;
+}
+
+li {
+  border: 3px solid orange;
+  padding: 5px;
+  margin: 5px;
+}
+
+h1 {
+  border: 3px solid green;
+  padding: 10px;
+  margin: 10px;
+}
