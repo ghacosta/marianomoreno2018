@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, .envoltorio {
+  width: 100%;
+  overflow: auto;
+  border: 3px solid;
+}
+
+.logo {
+  float: left;
+  border: 3px solid;
+}
+
+.title {
+  float: left;
+}
+
+nav {
+  border: 3px solid;
+}
+
+.content{
+  float: left;
+  width: 30%;
+  border: 3px solid;
+}
+
+aside {
+  float: left;
+  width: 70%;
+  border: 3px solid;
+}
+
+footer {
+  border: 3px solid;
+}
