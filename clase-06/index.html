@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juego Adivinar numero</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Juego Adivinar numero</h1>
+
+    <p>Hemos seleccionado un numero aleatorio entre 1 y 100. Intenta adivinarlo en 10 intentos o menos. Te diremos si tu intento fue muy alto o muy bajo. SUERTE! </p>
+    <div class="form">
+      <label for="intento">Introduzca su numero: </label>
+      <input type="text" id="intento" class="intento">
+      <input type="submit" value="Enviar Intento" class="enviarIntento">
+    </div>
+
+    <div class="resultados">
+      <p class="intentos"></p>
+      <p class="ultimoResultado"></p>
+      <p class="bajoOAlto"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

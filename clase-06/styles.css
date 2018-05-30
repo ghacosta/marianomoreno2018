@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%; /* ancho al 50% */
+  max-width: 800px; /* ancho maximo 800px */
+  min-width: 480px; /* ancho minimo 480px */
+  margin: 0 auto; /* centrar horizontalmente */
+}
+
+.lastResult {
+  color: white; 
+  padding: 3px;
+}
